@@ -1,0 +1,32 @@
+{
+  "name": "erdemir-project",
+  "version": "1.0.0",
+  "description": "Erdemir Sea Water Temperature Monitoring System",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkaanerkoc/Erdemir-sts.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Angular",
+    "Mongo",
+    "LoRa",
+    "IoT"
+  ],
+  "author": "Mehmet Kaan ERKOÇ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkaanerkoc/Erdemir-sts/issues"
+  },
+  "homepage": "https://github.com/mkaanerkoc/Erdemir-sts#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "method-override": "^2.3.8",
+    "mongoose": "^4.9.6"
+  }
+}
