@@ -29,6 +29,7 @@ var site10Model = mongoose.model('site10Model', rawLogSchema,'posts.d10');
 
 // make this available to our users in our Node applications
 module.exports = {
+  rawLogSchema,
   site1Model,
   site2Model,
   site3Model,
